@@ -3,7 +3,7 @@
 $verifyToken="larabot-token-verify";
 
 $hubVerifyToken = null;
-$accessToken =   "EAAYCXyd40oIBAFZCkyJMYlL7f7N67cpXlErMZCtTCzLTNobnMCmHux0Mygvuj3HWyVKLX7ZCZAylHpwmPtZAfMeSezUPcKukMvAsQYZCzx4ouoisBiHbrQkCkvQO9rt8N1U3kuB2G8HTH6cqRYMZBOkiMRxeJU5VQoAKuulM7rzVsTvS83CpT7ukcyEJsq58isZD";
+$accessToken =   "EAAYCXyd40oIBAFxejIDsTHwxwHV6Y5Ks1HdmTnrORSxoyXj7xoiCB92ZCRTvaN6x2OcNeZBLlZAsYaFAxuwPWfjQ7JTpiJX4JIIZBlGXPHh3L7oeYigbBElrQgNZBg8j7EKOp6wAqYzZARoKxKdlSrhNtXWOX5Qoio9dQhkUmx8wb2W8BZA6qZBWj6ZBo2JByQv8ZD";
 
 if(isset($_REQUEST['hub_mode']) && $_REQUEST['hub_mode']=="subscribe")
 {
