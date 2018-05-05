@@ -1,8 +1,7 @@
 <?php
 // parameters
 $verifyToken="larabot-token-verify";
-echo $verifyToken;
-exit;
+
 $hubVerifyToken = null;
 $accessToken =   "EAAYCXyd40oIBAFZCkyJMYlL7f7N67cpXlErMZCtTCzLTNobnMCmHux0Mygvuj3HWyVKLX7ZCZAylHpwmPtZAfMeSezUPcKukMvAsQYZCzx4ouoisBiHbrQkCkvQO9rt8N1U3kuB2G8HTH6cqRYMZBOkiMRxeJU5VQoAKuulM7rzVsTvS83CpT7ukcyEJsq58isZD";
 
