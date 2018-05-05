@@ -1,6 +1,6 @@
 <?php
 // parameters
-$hubVerifyToken = 'EAAVWWe8R9XMBACFZBAtDydvGx5UcSosDWHcXpP4qCRj17eE9bl7pioLMF17Wtoaz5Wq1yWA5XEXn30A0WkO6x0cZA70HYygCv3D9uRTPkMdeDiLx8AkHmCYEe4GCU9LiSVAgzyttMnu1ZAkFo9GEyUjgfeVrMlLvTyEEkYwltlZBuZA5bdTKgxT3JbG9X1aMZD';
+$hubVerifyToken = 'verify-ss-token';
 $accessToken =   "EAAVWWe8R9XMBACFZBAtDydvGx5UcSosDWHcXpP4qCRj17eE9bl7pioLMF17Wtoaz5Wq1yWA5XEXn30A0WkO6x0cZA70HYygCv3D9uRTPkMdeDiLx8AkHmCYEe4GCU9LiSVAgzyttMnu1ZAkFo9GEyUjgfeVrMlLvTyEEkYwltlZBuZA5bdTKgxT3JbG9X1aMZD";
 // check token at setup
 if ($_REQUEST['hub_verify_token'] === $hubVerifyToken) {
