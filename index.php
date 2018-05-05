@@ -41,7 +41,9 @@ $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
 curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
-curl_setopt($ch, CURLOPT_SSL_VERIFYPPER, false);
+
+curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
 $result = curl_exec($ch);
 curl_close($ch);
 }
